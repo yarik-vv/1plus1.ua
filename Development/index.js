@@ -1,2 +1,3 @@
-import css from './css/main.css';
-import css2 from './css/header.css';
+import fonts from './fonts/fonts.css';
+import main from './css/main.css';
+import header from './css/header.css';

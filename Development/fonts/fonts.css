@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'OneplusOne2015 Regular';
+  src: url('/fonts/OnePlusOne2015-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OneplusOne2015 Italic';
+  src: url('/fonts/OnePlusOne2015-Italic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OneplusOne2015 Light';
+  src: url('/fonts/OnePlusOne2015-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OneplusOne2015 Heavy";
+  src: url('/fonts/OnePlusOne2015-Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
