@@ -1,0 +1,109 @@
+.week-slider{
+   margin-top: 60px;
+   width: 100%;
+   height: 100px;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 90px;
+}
+
+.calendar{
+   height: 100%;
+   width: 100%;
+   
+   padding: 0 55px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+#prev,
+#next{
+   height: 100%;
+   border: 1px solid #d4d7da;
+   border-radius: 1px;
+   padding: 10px 13px;
+   color: #d4d7da;
+   fill: #d4d7da;
+   outline: none;
+}
+
+#next svg{
+   transform: rotate(180deg)
+}
+
+#prev:hover,
+#next:hover{
+   fill: #ff0033;
+   color: #ff0033;
+   border: 1px solid #ff0033;
+}
+
+#prev{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+
+#next{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+
+.day{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0 10px;
+}
+
+.day:hover{
+   background-color: #f2f2f2;
+}
+
+.day:hover span{
+   color: black;
+}
+
+.day p{
+   font-size: 32px;
+   color: black;
+   text-align: center; 
+   width: 65px;
+   height: 60px;
+   padding-top: 18px;
+   border-radius: 4px;
+   margin-bottom: 4px;
+}
+
+.day span{
+   color: gray;
+}
+
+#selected{
+   border: 1.5px solid #ff0033;
+   color: #ff0033;
+}
+
+/*------------- menu filter -----------*/
+
+.filter{
+   width: 742px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.filter a{
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+}
+
+#select-filter,
+.filter a:hover{
+   color: #ff0030;
+}
