@@ -1,0 +1,101 @@
+/*-------logos panel-------------*/
+.logos a{  
+   display: inline-block;
+   text-indent: -99999px;
+   vertical-align: middle;
+}
+
+.logos{
+   margin-top: 44px;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#tsn{
+   background: url(../images/logos.png) no-repeat -2px 0;
+   width: 101px;
+   height: 46px;
+}
+
+#tet{
+   background: url(../images/logos.png) no-repeat -8px -58px;
+   width: 100px;
+   height: 43px;
+}
+
+#dvaplusdva{
+   background: url(../images/logos.png) no-repeat -4px -119px;
+   width: 105px;
+   height: 34px;
+}
+
+#plusplus{
+   background: url(../images/logos.png) no-repeat -178px -130px;
+   width: 96px;
+   height: 50px;
+}
+
+#uatoday{
+   background: url(../images/logos.png) no-repeat -6px -172px;
+   width: 120px;
+   height: 44px;
+}
+
+#plusinter{
+   background: url(../images/logos.png) no-repeat -184px 0px;
+   width: 95px;
+   height: 47px;
+}
+
+#bigudi{
+   background: url(../images/logos.png) no-repeat -180px -53px;
+   width: 94px;
+   height: 72px;
+}
+
+#unian{
+   background: url(../images/logos.png) no-repeat -175px -190px;
+   width: 98px;
+   height: 63px;
+}
+
+/*----------footer navigation-------------*/
+
+.footer-nav{
+   margin-top: 55px;
+   padding-left: 200px;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;   
+}
+
+.footer-nav span{
+   border-left: 1px solid white;
+   height: 15px;
+   position: relative;
+   top: 1px;
+}
+
+.footer-nav a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: "OnePlusOne Regular", sans-serif;
+   font-size: 16px;
+   padding: 0 30px;
+   letter-spacing: 1.7px;
+}
+
+/*----------copyriting-------------*/
+
+.copyriting{
+   margin-top: 9px;
+   color: white;
+   text-align: center;
+   font-size: 13px;
+}
