@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   context: __dirname + '/Development',
@@ -67,7 +68,9 @@ module.exports = {
     new webpack.DefinePlugin({
       NODE_ENV: JSON.stringify(NODE_ENV)
     }),
+    new CleanWebpackPlugin(__dirname + '/Production/*'),
     new HtmlWebpackPlugin({
+      chunks: ['index'],
       filename: 'index.html',
       template: 'index.html',
       minify: {

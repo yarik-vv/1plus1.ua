@@ -109,7 +109,12 @@
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 7 */,
+/* 7 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -127,21 +132,21 @@ module.exports = __webpack_require__.p + "index.js";
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_fonts_css__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_fonts_css__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_fonts_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_main_css__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_main_css__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_main_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_main_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_header_css__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_header_css__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__css_header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_calendar_css__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_calendar_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_calendar_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__css_player_css__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__css_player_css__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__css_player_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__css_player_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__css_tv_css__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__css_tv_css__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__css_tv_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__css_tv_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__css_popular_css__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__css_popular_css__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__css_popular_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__css_popular_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__css_footer_css__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__css_footer_css__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__css_footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__css_footer_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js__);
@@ -159,12 +164,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
