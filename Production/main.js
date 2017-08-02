@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -109,19 +109,26 @@
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 7 */
-/***/ (function(module, exports) {
+/* 7 */,
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+module.exports = __webpack_require__.p + "favicon.ico";
 
 /***/ }),
-/* 8 */
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "index.js";
+
+/***/ }),
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_fonts_css__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__fonts_fonts_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_fonts_css__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_fonts_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_main_css__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_main_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_main_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_header_css__ = __webpack_require__(2);
@@ -136,6 +143,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__css_popular_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__css_popular_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__css_footer_css__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__css_footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__css_footer_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_file_loader_name_path_name_ext_index_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_file_loader_name_path_name_ext_favicon_ico__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_file_loader_name_path_name_ext_favicon_ico___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_file_loader_name_path_name_ext_favicon_ico__);
 
 
 
@@ -145,6 +156,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+
+
+
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

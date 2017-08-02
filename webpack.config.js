@@ -9,7 +9,7 @@ const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
 module.exports = {
   context: __dirname + '/Development',
 
-  entry: './index',
+  entry: './build',
 
   output: {
     path: __dirname + '/Production',
@@ -55,7 +55,7 @@ module.exports = {
         })
       },
       {
-        test: /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
+        test: /\.(png|jpg|svg|ttf|eot|otf|woff|woff2)$/,
         exclude: /(node_modules)/,
         loader: 'file-loader?name=[path][name].[ext]'
       }
